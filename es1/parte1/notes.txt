@@ -1,0 +1,7 @@
+ESERCIZIO 1.1
+
+Ho modificato il main di random per stampare 1.000.000 di valori
+random uniformemente distribuiti in [0,1] in un file di nome
+"random_values.txt". Da questo file estraggo poi i valori per
+svolgere l'esercizio nel jupyter-notebook, calcolando la media e
+la deviazione standard sulla media.

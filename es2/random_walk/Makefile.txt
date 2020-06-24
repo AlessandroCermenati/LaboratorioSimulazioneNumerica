@@ -1,0 +1,13 @@
+CC = g++
+CFLAGS = -Wall -O3 --std=c++11
+
+main.exe : main.o random.o random_walk.o
+	$(CC) random.o random_walk.o main.o -o main.exe
+main.o : main.cpp random.h random_walk.h
+	$(CC) -c main.cpp -o main.o $(CFLAGS)
+random.o : random.cpp random.h funzionebase.h
+	$(CC) -c random.cpp -o random.o $(CFLAGS)
+random_walk.o : random.h random_walk.h random_walk.cpp
+	$(CC) -c random_walk.cpp -o random_walk.o $(CFLAGS)
+clean :
+	rm *.o main.exe seed.out *.txt
