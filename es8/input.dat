@@ -1,0 +1,17 @@
+2.5
+100
+1000
+100
+0.002
+0.01
+0.1
+0
+
+  ReadInput >> delta;
+  ReadInput >> nblocks;
+  ReadInput >> nsteps;
+  ReadInput >> nbins;
+  ReadInput >> cool;
+  ReadInput >> deltamu;
+  ReadInput >> deltasig;
+  ReadInput >> optimize;
