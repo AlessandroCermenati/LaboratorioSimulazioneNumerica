@@ -1,0 +1,13 @@
+32
+400
+1000
+0
+20
+50
+
+  ReadInput >> NumberOfCities;
+  ReadInput >> Populations;
+  ReadInput >> NumberOfIterations;
+  ReadInput >> Generate;
+  ReadInput >> print;
+  ReadInput >> migrations;

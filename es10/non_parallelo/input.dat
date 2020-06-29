@@ -1,0 +1,11 @@
+32
+10
+500
+10000
+1
+
+  ReadInput >> NumberOfCities;
+  ReadInput >> Tiniziale;
+  ReadInput >> freezingstep;
+  ReadInput >> iterations;
+  ReadInput >> Generate;
